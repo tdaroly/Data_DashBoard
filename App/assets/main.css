@@ -1,0 +1,123 @@
+.mainDiv{
+background-color: #dddddd;
+border:1px solid black;
+
+}
+#info-top-heading{
+    background-color: bisque;
+    font: small-caps;
+    display: inline;
+    border:1px solid black;
+
+}
+#total-wells{
+    background-color: bisque;
+    border:1px solid black;
+
+}
+#state_county{
+    background-color: bisque;
+    font: small-caps;
+    display: inline;
+    /*border:1px solid black; */
+
+}
+       
+
+#input_hide{
+    opacity: 0;
+}
+
+/*
+https://plot.ly/python/bar-charts/
+
+
+
+
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+  .column,
+  .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box; }
+  
+  /* For devices larger than 400px */
+  @media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
+  }
+  
+  /* For devices larger than 550px */
+  @media (min-width: 550px) {
+    .container {
+      width: 80%; }
+    .column,
+    .columns {
+      margin-left: 0.5%; }
+    .column:first-child,
+    .columns:first-child {
+      margin-left: 0; }
+  
+    
+    
+    
+    
+    .four.columns                   { width: 33%;          }
+    
+    .eight.columns                  { width: 66.5%;          }
+  
+  
+    /* Offsets */
+    .offset-by-one.column,
+    .offset-by-one.columns          { margin-left: 8.66666666667%; }
+    
+    
+    
+    
+    
+    .offset-by-seven.column,
+    .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+    
+    .offset-by-one-half.column,
+    .offset-by-one-half.columns     { margin-left: 52%; }
+  
+  }
+
+
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
